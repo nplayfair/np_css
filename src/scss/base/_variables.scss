@@ -87,3 +87,5 @@ $accent-button-color-hover: white;
 // Round buttons
 $round-buttons: 40px;
 
+// Enumerate button classes
+$buttons: ('.btn, a.btn, button, [type=submit], [type=reset], [type=button]');
