@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass ./src/scss/ -o ./dist/css/  -w -r --source-map-embed --source-map-contents",
-    "build": "node-sass ./src/scss/ -o ./dist/css/ -r"
+    "build": "node-sass ./src/scss/ -o ./dist/css/ -r",
+    "demo": "node-sass ./src/scss/ -o ./demo/css/ -r"
   },
   "repository": {
     "type": "git",
