@@ -21,6 +21,7 @@ $dark-color: #343a3f;
 $light-color: #f8f8f8;
 $danger-color: #d33c40;
 $success-color: #28a745;
+$highlight: #ffeea8;
 $link-color: $secondary-color;
 $link-hover-color: darken($secondary-color, 15%);
 
@@ -32,11 +33,13 @@ $body-font-size: 1rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
+$font-color: #404040;
 $line-height: 1.5;
 $font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Headings
 $heading-font-weight: 600;
+$heading-font-color: #404040;
 $heading-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $heading-line-height: 1.2;
 
