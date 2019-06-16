@@ -71,6 +71,7 @@ $borders: $border-width $border-style $border-color;
 $button-background: $primary-color;
 $button-background-hover: darken($button-background, 10%);
 $button-color: white;
+$button-color-hover: white;
 $button-font-weight: 600;
 $button-font-size: 1rem;
 $button-border-style: solid;
