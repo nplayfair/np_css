@@ -5,10 +5,12 @@
 @import "base/mixins";
 
 // Reset margins, box sizing etc
+@import "base/normalize";
 @import "base/reset";
 
 // Components
 @import "components/scaffolding";
+@import "components/navigation";
 @import "components/utilities";
 @import "components/typography";
 @import "components/grid";
