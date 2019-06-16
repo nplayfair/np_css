@@ -49,3 +49,20 @@
 .my-3 {
   margin: 3rem 0;
 }
+
+// Vertical center
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Display State
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
