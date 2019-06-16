@@ -1,0 +1,17 @@
+// Reset
+
+// Box sizing set to border-box
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// No margin on figures
+figure {
+  margin: 0;
+}
