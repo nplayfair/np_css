@@ -2,11 +2,11 @@
  *  Buttons
  */
 
+ // Parent class
+
  %buttons {
    -webkit-appearance: none;
    display: inline-block;
-   border: $button-border-width $button-border-color $button-border-color;
-   color: $button-color;
    font-weight: $button-font-weight;
    font-size: $button-font-size;
    text-transform: $button-text-transform;
@@ -17,4 +17,75 @@
    cursor: pointer;
    text-decoration: none;
    line-height: 1;
+ }
+
+ %buttons-hover {
+   border: $button-border-width $button-border-color darken($button-border-color, 10%);
+   background: $button-background-hover;
+   color: $button-color;
+   text-decoration: none;
+ }
+
+ %buttons-focus {
+    border: $button-border-width $button-border-style darken($button-border-color, 10%);
+    background: darken($button-background, 10%);
+    color: $button-color;
+    text-decoration: none;
+ }
+
+ //* Children which extend button class
+
+ // Primary buttons
+
+ #{$buttons} {
+   @extend %buttons;
+   &::-moz-focus-inner {
+     border: 0;
+     padding: 0;
+   }
+   &:hover {
+     @extend %buttons-hover;
+   }
+   &:focus,
+   &:active {
+     @extend %buttons-focus;
+   }
+ }
+
+ // Primary buttons
+ .btn-primary,
+ a.btn-primary {
+   color: $button-color;
+   border: $button-border-width $button-border-color $button-border-color;
+   background: $button-background;
+ }
+
+ // Accented buttons
+ .btn-secondary,
+ a.btn-secondary {
+   color: $accent-button-color;
+   border: 1px solid $accent-button-background;
+   background: $accent-button-background;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $accent-button-color-hover;
+     border: 1px solid darken($accent-button-background, 10%);
+     background: darken($accent-button-background, 10%);
+   }
+ }
+
+// Danger buttons
+ .btn-danger,
+ a.btn-danger {
+   color: $button-color;
+   border: 1px solid $danger-color;
+   background: $danger-color;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $button-color-hover;
+     border: 1px solid darken($danger-color, 10%);
+     background: darken($danger-color, 10%);
+   }
  }
