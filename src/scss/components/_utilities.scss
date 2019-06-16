@@ -50,6 +50,23 @@
   margin: 3rem 0;
 }
 
+// Backgrounds
+.bg-primary {
+  background: $primary-color;
+}
+
+.bg-secondary {
+  background: $secondary-color;
+}
+
+.bg-light {
+  background: $light-color;
+}
+
+.bg-dark {
+  background: $dark-color;
+}
+
 // Vertical center
 .vertical-center {
   display: flex;
