@@ -135,6 +135,7 @@
  .full-container {
    max-width: 100%;
    padding: 0 1rem;
+   overflow: hidden;
  }
 
  // Container
@@ -143,6 +144,7 @@
    padding: 0 $padding;
    margin-left: auto;
    margin-right: auto;
+   overflow: hidden;
  }
 
  .container-sm {
