@@ -1,0 +1,20 @@
+/*
+ *  Buttons
+ */
+
+ %buttons {
+   -webkit-appearance: none;
+   display: inline-block;
+   border: $button-border-width $button-border-color $button-border-color;
+   color: $button-color;
+   font-weight: $button-font-weight;
+   font-size: $button-font-size;
+   text-transform: $button-text-transform;
+   padding: 0.75rem 1.25rem;
+   margin: 0 0 0.5rem 0;
+   vertical-align: middle;
+   text-align: center;
+   cursor: pointer;
+   text-decoration: none;
+   line-height: 1;
+ }
