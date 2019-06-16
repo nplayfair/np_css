@@ -1,7 +1,7 @@
 # NP_CSS
 
 Minimal CSS library for use as a base in projects. Class names are similar to bootstrap 
-and the structure of this project was inspired by Tania Rascia's [primitive-ui](https://taniarascia.github.io/primitive).
+and the structure of this project was inspired by Tania Rascia's [Primitive](https://github.com/taniarascia/primitive) framework.
 
 ## Building
 Clone the repository, run `npm install` and then `npm run sass` to watch the project.
