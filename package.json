@@ -1,0 +1,27 @@
+{
+  "name": "np_css",
+  "version": "1.0.0",
+  "description": "Basic CSS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nplayfair/np_css.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "ui"
+  ],
+  "author": "nplayfair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nplayfair/np_css/issues"
+  },
+  "homepage": "https://github.com/nplayfair/np_css#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
