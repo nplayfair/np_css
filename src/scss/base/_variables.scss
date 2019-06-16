@@ -1,0 +1,88 @@
+/* Variables
+ *
+ * Configure variables here
+ */
+
+//* Containers
+$x-small: 600px;
+$small: 800px;
+$medium: 1000px;
+$large: 1200px;
+
+//* Breakpoints
+$mobile: $x-small;
+$desktop: $medium;
+
+//* Colours
+$background: white;
+$primary-color: #41a764;
+$secondary-color: #299ccd;
+$dark-color: #343a3f;
+$light-color: #f8f8f8;
+$danger-color: #d33c40;
+$success-color: #28a745;
+$link-color: $secondary-color;
+$link-hover-color: darken($secondary-color, 15%);
+
+//* Typography
+
+// Body font
+$font-size: 1rem;
+$body-font-size: 1rem;
+$font-style: normal;
+$font-variant: normal;
+$font-weight: normal;
+$line-height: 1.5;
+$font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Headings
+$heading-font-weight: 600;
+$heading-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-line-height: 1.2;
+
+// Mobile headings
+$h1-mobile: 1.75rem;
+$h2-mobile: 1.5rem;
+$h3-mobile: 1.25em;
+$h4-mobile: 1.1rem;
+$h5-mobile: 1.1rem;
+
+// Standard headings
+$h1: 2.25rem;
+$h2: 2rem;
+$h3: 1.75rem;
+$h4: 1.5rem;
+$h5: 1.25rem;
+
+//* Padding
+$padding: 1rem;
+$margins: 1.5rem;
+$content-padding: 60px 0;
+$content-padding-mobile: 30px 0;
+
+//* Borders
+$border-width: 1px;
+$border-style: solid;
+$border-color: #dedede;
+$border-radius: 4px;
+$borders: $border-width $border-style $border-color;
+
+//* Buttons
+$button-background: $primary-color;
+$button-background-hover: darken($button-background, 10%);
+$button-color: white;
+$button-font-weight: 600;
+$button-border-style: solid;
+$button-border-width: 1px;
+$button-border-color: $button-background;
+$button-border-radius: 4px;
+$button-text-transform: none;
+
+// Accented buttons
+$accent-button-background: $secondary-color;
+$accent-button-color: white;
+$accent-button-color-hover: white;
+
+// Round buttons
+$round-buttons: 40px;
+
