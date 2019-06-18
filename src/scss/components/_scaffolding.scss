@@ -119,7 +119,22 @@
 }
 
  // Code block
- // TODO
+ pre {
+  border: 0;
+  border-radius: $border-radius;
+  background: $code-background;
+  padding: 1rem;
+  tab-size: 2;
+  color: $code-color;
+  font-family: $code-family;
+  font-size: $code-size;
+  margin: 0 0 $margins 0;
+
+  code {
+    font-family: $code-family;
+    line-height: 1.2;
+  }
+}
 
  // Keyboard
  // TODO
