@@ -7,6 +7,7 @@
  %buttons {
    -webkit-appearance: none;
    display: inline-block;
+   border-radius: $button-border-radius;
    font-weight: $button-font-weight;
    font-size: $button-font-size;
    text-transform: $button-text-transform;
