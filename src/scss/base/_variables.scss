@@ -116,3 +116,6 @@ $code-borders: $borders;
  $placeholder: darken($light-color, 10%);
  $input-background: transparent;
  $forms: ('[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea');
+
+ // Cards
+ $card-border-color: #ccc;
