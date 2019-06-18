@@ -1,8 +1,8 @@
 /*
- *  Buttons
+ *  Buttons and badges
  */
 
- // Parent class
+ // Parent classes
 
  %buttons {
    -webkit-appearance: none;
@@ -34,9 +34,21 @@
     text-decoration: none;
  }
 
- //* Children which extend button class
+ %badges {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.7rem;
+  text-align: center;
+  margin: 0.3rem;
+  border-radius: 0;
+  text-decoration: none;
+  line-height: 1;
+}
 
- // Primary buttons
+ //* Children which extend button and badge class
+
+ // Buttons
 
  #{$buttons} {
    @extend %buttons;
@@ -53,17 +65,25 @@
    }
  }
 
- // Primary buttons
+ // Badges
+
+ #{$badges} {
+   @extend %badges;
+ }
+
+ // Primary buttons and badges
  .btn-primary,
- a.btn-primary {
+ a.btn-primary,
+ .badge-primary {
    color: $button-color;
    border: $button-border-width $button-border-style $button-border-color;
    background: $primary-color;
  }
 
- // Accented buttons
+ // Accented buttons and badges
  .btn-secondary,
- a.btn-secondary {
+ a.btn-secondary,
+ .badge-secondary {
    color: $accent-button-color;
    border: 1px solid $accent-button-background;
    background: $accent-button-background;
@@ -76,9 +96,10 @@
    }
  }
 
-// Danger buttons
+// Danger buttons and badges
  .btn-danger,
- a.btn-danger {
+ a.btn-danger,
+ .badge-danger {
    color: $button-color;
    border: 1px solid $danger-color;
    background: $danger-color;
@@ -91,9 +112,26 @@
    }
  }
 
- // Dark buttons
+ // Warning buttons and badges
+ .btn-warning,
+ a.btn-warning,
+ .badge-warning {
+   color: $button-color;
+   border: 1px solid $warning-color;
+   background: $warning-color;
+   &:hover,
+   &:focus,
+   &:active {
+     color: $button-color-hover;
+     border: 1px solid darken($warning-color, 10%);
+     background: darken($warning-color, 10%);
+   }
+ }
+
+ // Dark buttons and badges
  .btn-dark,
- a.btn-dark {
+ a.btn-dark,
+ .badge-dark {
    color: $button-color;
    border: 1px solid $dark-color;
    background: $dark-color;
@@ -106,9 +144,10 @@
    }
  }
 
- // Rounded buttons
+ // Rounded buttons and badges
  .btn-round,
- .a.btn-round {
+ .a.btn-round,
+ .badge-round {
    border-radius: $round-buttons;
  }
 

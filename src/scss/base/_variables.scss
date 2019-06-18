@@ -21,6 +21,7 @@ $dark-color: #343a3f;
 $light-color: #f8f8f8;
 $danger-color: #d33c40;
 $success-color: #28a745;
+$warning-color: #eeac57;
 $highlight: #ffeea8;
 $link-color: $secondary-color;
 $link-hover-color: darken($secondary-color, 15%);
@@ -95,6 +96,9 @@ $round-buttons: 40px;
 // Enumerate button classes
 $buttons: ('.btn, a.btn, button, [type=submit], [type=reset], [type=button]');
 
+// Enumerate badge classes
+$badges: ('.badge, .badge-round');
+
 // Code
 $code-color: $font-color;
 $code-background: transparent;
@@ -112,4 +116,3 @@ $code-borders: $borders;
  $placeholder: darken($light-color, 10%);
  $input-background: transparent;
  $forms: ('[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea');
- 
