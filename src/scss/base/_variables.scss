@@ -94,3 +94,10 @@ $round-buttons: 40px;
 
 // Enumerate button classes
 $buttons: ('.btn, a.btn, button, [type=submit], [type=reset], [type=button]');
+
+// Code
+$code-color: $font-color;
+$code-background: transparent;
+$code-size: 14px;
+$code-family: Menlo, monospace;
+$code-borders: $borders;
