@@ -9,20 +9,15 @@ nav {
     color: white;
   }
 }
+
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7rem 2rem;
-  z-index: 1;
-  width: 100%;
-  border-bottom: solid 1px var(--primary-color);
-  opacity: 0.9;
-  margin-bottom: 1rem;
+  display: block;
+  text-align: center;
 }
 
 .navbar ul {
-  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .navbar a {
@@ -33,4 +28,22 @@ nav {
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+@include small-breakpoint {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    z-index: 1;
+    width: 100%;
+    border-bottom: solid 1px var(--primary-color);
+    opacity: 0.9;
+    margin-bottom: 1rem;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
 }
