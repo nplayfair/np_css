@@ -1,4 +1,4 @@
-# NP_CSS
+# NP_CSS [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Minimal CSS library for use as a base in projects. Class names are similar to bootstrap 
 and the structure of this project was inspired by Tania Rascia's [Primitive](https://github.com/taniarascia/primitive) framework.
