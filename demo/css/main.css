@@ -424,6 +424,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5 {
 .btn, a.btn, button, [type=submit], [type=reset], [type=button] {
   -webkit-appearance: none;
   display: inline-block;
+  border-radius: 4px;
   font-weight: 600;
   font-size: 1rem;
   text-transform: none;
@@ -454,7 +455,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5 {
 .btn-primary,
 a.btn-primary {
   color: white;
-  border: 1px #41a764 #41a764;
+  border: 1px solid #41a764;
   background: #41a764; }
 
 .btn-secondary,
@@ -482,6 +483,19 @@ a.btn-danger {
     color: white;
     border: 1px solid #b3292c;
     background: #b3292c; }
+
+.btn-dark,
+a.btn-dark {
+  color: white;
+  border: 1px solid #343a3f;
+  background: #343a3f; }
+  .btn-dark:hover, .btn-dark:focus, .btn-dark:active,
+  a.btn-dark:hover,
+  a.btn-dark:focus,
+  a.btn-dark:active {
+    color: white;
+    border: 1px solid #1d2023;
+    background: #1d2023; }
 
 .btn-round,
 .a.btn-round {
