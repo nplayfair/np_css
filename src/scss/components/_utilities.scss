@@ -70,6 +70,37 @@
   background: $dark-color;
 }
 
+// Border Colors
+.border-primary {
+  border-color: $primary-color;
+}
+
+.border-secondary {
+  border-color: $secondary-color;
+}
+
+.border-warning {
+  border-color: $warning-color;
+}
+
+.border-danger {
+  border-color: $danger-color;
+}
+
+.border-dark {
+  border-color: $dark-color;
+}
+
+// Text color
+.text-white {
+  color: white;
+}
+
+.text-dark {
+  color: $dark-color;
+}
+
+
 // Vertical center
 .vertical-center {
   display: flex;
