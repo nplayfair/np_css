@@ -7,20 +7,24 @@
    margin: 1rem 0;
    opacity: 0.9;
    background: $light-color;
+   border: 1px dotted $dark-color;
    color: $font-color;
    font-weight: 600;
    h1, h2, h3, h4, h5 {
      color: inherit;
+     margin-top: 0;
    }
  }
 
  .alert-danger {
-   background-color: $danger-color;
+   background-color: lighten($danger-color, 15%);
+   border-color: $danger-color;
    color: white;
  }
 
  .alert-warning {
   background-color: $warning-color;
+  border-color: darken($warning-color, 20%);
   color: $warning-font-color;
 }
 
