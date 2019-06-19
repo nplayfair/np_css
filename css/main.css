@@ -421,7 +421,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5 {
   color: white; }
 
 .text-dark {
-  color: #343a3f; }
+  color: #404040; }
 
 .vertical-center {
   display: flex;
@@ -756,3 +756,28 @@ textarea.has-error:active {
 
 .card-body {
   padding: 1rem; }
+
+/*
+ *  Alerts
+ */
+.alert {
+  padding: 0.7rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: #f8f8f8;
+  color: #404040;
+  font-weight: 600; }
+  .alert h1, .alert h2, .alert h3, .alert h4, .alert h5 {
+    color: inherit; }
+
+.alert-danger {
+  background-color: #d33c40;
+  color: white; }
+
+.alert-warning {
+  background-color: #eeac57;
+  color: #941100; }
+
+.alert-success {
+  background-color: #28a745;
+  color: white; }
