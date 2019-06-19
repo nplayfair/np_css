@@ -1,0 +1,30 @@
+/*
+ *  Alerts
+ */
+
+ .alert {
+   padding: 0.7rem;
+   margin: 1rem 0;
+   opacity: 0.9;
+   background: $light-color;
+   color: $font-color;
+   font-weight: 600;
+   h1, h2, h3, h4, h5 {
+     color: inherit;
+   }
+ }
+
+ .alert-danger {
+   background-color: $danger-color;
+   color: white;
+ }
+
+ .alert-warning {
+  background-color: $warning-color;
+  color: $warning-font-color;
+}
+
+.alert-success {
+  background-color: $success-color;
+  color: white;
+}

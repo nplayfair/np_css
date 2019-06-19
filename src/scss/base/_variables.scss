@@ -35,13 +35,16 @@ $body-font-size: 1rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
-$font-color: #404040;
 $line-height: 1.6;
 $font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+// Font Colors
+$font-color: #404040;
+$heading-font-color: #404040;
+$warning-font-color: #941100;
+
 // Headings
 $heading-font-weight: 600;
-$heading-font-color: #404040;
 $heading-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $heading-line-height: 1.2;
 
