@@ -776,7 +776,7 @@ textarea.has-error:active {
     margin-top: 0; }
 
 .alert-danger {
-  background-color: #e17a7d;
+  background-color: rgba(211, 60, 64, 0.8);
   border-color: #d33c40;
   color: white; }
 
@@ -786,5 +786,5 @@ textarea.has-error:active {
   color: #941100; }
 
 .alert-success {
-  background-color: #28a745;
+  background-color: rgba(40, 167, 69, 0.6);
   color: white; }

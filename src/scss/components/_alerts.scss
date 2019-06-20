@@ -17,7 +17,7 @@
  }
 
  .alert-danger {
-   background-color: lighten($danger-color, 15%);
+   background-color: rgba($danger-color, 0.8);
    border-color: $danger-color;
    color: white;
  }
@@ -29,6 +29,6 @@
 }
 
 .alert-success {
-  background-color: $success-color;
+  background-color: rgba($success-color, 0.6);
   color: white;
 }
