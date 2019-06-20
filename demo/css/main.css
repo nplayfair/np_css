@@ -344,6 +344,9 @@ nav h1, nav h2, nav h3, nav h4, nav h5 {
  *  For adding padding, margin etc
  */
 /* Padding */
+.p-0 {
+  padding: 0; }
+
 .p-1 {
   padding: 1rem; }
 
@@ -529,7 +532,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5 {
   display: inline-block;
   font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.2rem 0.7rem;
+  padding: 0.2rem 0.5rem;
   text-align: center;
   margin: 0.3rem;
   border-radius: 0;
@@ -765,17 +768,21 @@ textarea.has-error:active {
   margin: 1rem 0;
   opacity: 0.9;
   background: #f8f8f8;
+  border: 1px dotted #343a3f;
   color: #404040;
   font-weight: 600; }
   .alert h1, .alert h2, .alert h3, .alert h4, .alert h5 {
-    color: inherit; }
+    color: inherit;
+    margin-top: 0; }
 
 .alert-danger {
-  background-color: #d33c40;
+  background-color: #e17a7d;
+  border-color: #d33c40;
   color: white; }
 
 .alert-warning {
   background-color: #eeac57;
+  border-color: #cb7b14;
   color: #941100; }
 
 .alert-success {
