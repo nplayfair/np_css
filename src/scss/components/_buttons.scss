@@ -34,6 +34,11 @@
     text-decoration: none;
  }
 
+ %outline-buttons {
+   border: (2 * $button-border-width) $button-border-style;
+   background: transparent;
+ }
+
  %badges {
   display: inline-block;
   font-size: 0.8rem;
@@ -162,4 +167,40 @@
  a.btn-block {
    display: block;
    width: 100%;
+ }
+
+ // Outline buttons
+ .btn-outline-primary,
+ a.btn-outline-primary {
+   @extend %outline-buttons;
+   border-color: $primary-color;
+   color: $primary-color;
+ }
+
+ .btn-outline-secondary,
+ a.btn-outline-secondary {
+   @extend %outline-buttons;
+   border-color: $secondary-color;
+   color: $secondary-color;
+ }
+ 
+ .btn-outline-warning,
+ a.btn-outline-warning {
+   @extend %outline-buttons;
+   border-color: $warning-color;
+   color: $warning-color;
+ }
+
+ .btn-outline-danger,
+ a.btn-outline-danger {
+   @extend %outline-buttons;
+   border-color: $danger-color;
+   color: $danger-color;
+ }
+
+ .btn-outline-dark,
+ a.btn-outline-dark {
+   @extend %outline-buttons;
+   border-color: $dark-color;
+   color: $dark-color;
  }
